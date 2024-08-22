@@ -1,69 +1,66 @@
 body {
+    margin: 0;
     background: #1F2937;
     color: white;
-    margin: 115px 144px 51px 52px;
-    max-width: 1000px;
+    font-family: "Inter", sans-serif;
 }
 
-h1 {
-    font-size: 36px;
-    width: 340px;
-    height: 65px;
-    font-weight: 800;
-    font-family: "Karla", 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.container {
+    padding: 100px;
+    width: 445px;
 }
 
 #text-highlight {
-    color: #55F991;
+    color: #4ADF86;
+    display: block;
 }
 
-h2 {
-    font-family: "Inter";
-    font-size: 19px;
-    font-weight: 300;
-    width: 370px;
-    height: 28px;
-    color: #D5D4D8;
+h1 {
+    font-family: "Karla", sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 15px;
+    line-height: 40px;
+}
 
+h3 {
+    color: #D5D4D8;
+    font-size: 20px;
+    font-weight: 200;
+    margin-top: 0;
+    margin-bottom: 50px;
 }
 
 button {
-    font-family: "Inter";
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
     color: white;
     background: #10B981;
     border: none;
     border-radius: 6px;
-    margin-top: 26px;
-    margin-bottom: 24px;
-    font-size: 15px;
-    width: 180px;
-    height: 40px;
+    padding: 12px 16px;
+    margin-bottom: 35px;
 }
 
-hr {
-    border-top: 1px solid #2F3E53;
-    border-bottom: none;
-    border-left: none;
-    border-right: none;
-    width: 420px;
-    margin: 0px;
-    
+.line {
+    height: 1px;
+    background: #2F3E53;
+    display: block;
+    margin-bottom: 35px;
+}
+
+.passwords-container {
+    display: flex;
+    justify-content: space-between;
 }
 
 .password {
-    color: #55F991;
     background: #273549;
-    font-size: 16px;
-    padding: 9px 5px;
+    color: #55F991;
+    width: 180px;
+    height: 32px;
+    line-height: 32px;
+    padding: 4px 16px;
     border-radius: 6px;
-    width: 300px;
-    height: 18px;
     text-align: center;
-    margin-right: 24px;
-    font-family: "Inter", 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-.passwordPlace {
-    display: flex;
-    width: 446px;
 }
